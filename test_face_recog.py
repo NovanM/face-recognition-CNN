@@ -4,8 +4,8 @@ import cv2
 from tensorflow.keras.models import load_model
 from sklearn.preprocessing import LabelEncoder
 
-
-directory = 'Datasets10/train_new/'
+# Create directori Datasets10/face_inputs/ or custom folder and change variable directory in your folder
+directory = 'Datasets10/face_inputs/'
 dir = os.listdir(directory)
 labels = []
 for item in dir:
